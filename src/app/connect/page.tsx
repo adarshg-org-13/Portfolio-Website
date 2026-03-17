@@ -97,13 +97,13 @@ export default function ConnectPage() {
             </div>
             <div>
               <p style={{ fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--taupe)" }}>Email</p>
-              <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.1rem", fontWeight: 600, color: "var(--charcoal)" }}>your@email.com</p>
+              <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.1rem", fontWeight: 600, color: "var(--charcoal)" }}>axbns5e55101@gmail.com</p>
             </div>
           </div>
           <p style={{ color: "var(--taupe)", fontSize: "0.88rem", lineHeight: 1.65 }}>
             Have a project idea, want to collaborate, or just want to say hi? My inbox is always open!,feel free to contact me!
           </p>
-          <a href="mailto:your@email.com" className="btn btn-primary" style={{ alignSelf: "flex-start" }}>
+          <a href="mailto:axbns5e55101@gmail.com" className="btn btn-primary" style={{ alignSelf: "flex-start" }}>
             Send an Email!
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="22" y1="2" x2="11" y2="13"/>

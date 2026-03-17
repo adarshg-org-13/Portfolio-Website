@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const GithubIcon = () => (
   <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
@@ -20,7 +21,7 @@ const projects = [
     name: "Car Washing Simulator",
     description: "A fun and interactive car washing simulation game built with the Godot engine. Players wash cars, earn coins, and drive vehicles in a satisfying gameplay loop.",
     tags: ["GDScript", "Godot Engine", "Game Dev", "Simulation"],
-    icon: "🚗",
+    icon: "/main menu _g.jpeg",
     bannerBg: "linear-gradient(135deg, #252323 0%, #70798C 100%)",
     link: "https://ayush-org-101.itch.io/car-washing-simulator-101",
     repo: "https://github.com/adarshg-org-13/Whispers-of-the-pertrified-path",
@@ -31,7 +32,7 @@ const projects = [
     name: "AyuBuild Hub",
     description: "A full-featured PC part picker web application that lets users browse, compare, and build their ideal PC configuration — with compatibility checks and live pricing.",
     tags: ["TypeScript", "Next.js", "Web App", "Full-Stack"],
-    icon: "🖥️",
+    icon: "/main menu _g.jpeg",
     bannerBg: "linear-gradient(135deg, #70798C 0%, #A99985 100%)",
     link: "",
     repo: "https://github.com/adarshg-org-13/AyuBuild-Hub",
@@ -42,7 +43,7 @@ const projects = [
     name: "",
     description: "",
     tags: [],
-    icon: "🔮",
+    icon: "/main menu _g.jpeg",
     bannerBg: "linear-gradient(135deg, rgba(112,121,140,0.3) 0%, rgba(169,153,133,0.3) 100%)",
     link: "",
     repo: "",
@@ -54,7 +55,7 @@ const projects = [
     name: "",
     description: "",
     tags: [],
-    icon: "⚙️",
+    icon: "/gears-icon.png",
     bannerBg: "linear-gradient(135deg, rgba(37,35,35,0.2) 0%, rgba(112,121,140,0.25) 100%)",
     link: "",
     repo: "",
@@ -66,7 +67,7 @@ const projects = [
     name: "",
     description: "",
     tags: [],
-    icon: "🚀",
+    icon: "/rocket-icon.png",
     bannerBg: "linear-gradient(135deg, rgba(169,153,133,0.25) 0%, rgba(218,210,188,0.4) 100%)",
     link: "",
     repo: "",
@@ -84,16 +85,17 @@ export default function ProjectsPage() {
 
         <div className="projects-grid">
           {projects.map((project, i) => {
-            /* Ghost / placeholder card */
             if (project.ghost) {
               return (
                 <div
                   key={project.id}
                   className="project-card project-card-ghost"
-                  style={{ animationDelay: `${i * 0.1}s` }}
+                  style={{ animation: 'none' }}
                 >
-                  <div className="project-banner" style={{ background: project.bannerBg }}>
-                    <span className="project-banner-icon" style={{ opacity: 0.4 }}>{project.icon}</span>
+                  <div className="project-banner" style={{ background: project.bannerBg, overflow: 'hidden' }}>
+                    <div className="project-banner-icon" style={{ opacity: 0.4, display: "flex", alignItems:"flex-start", justifyContent:"left" }}>
+                       <Image src={project.icon} alt="icon" width={330} height={185} style={{ transform: 'none' }} />
+                    </div>
                   </div>
                   <div className="project-body" style={{ alignItems: "center", justifyContent: "center", textAlign: "center", gap: "0.75rem" }}>
                     <span className="ghost-badge">
@@ -115,15 +117,21 @@ export default function ProjectsPage() {
               );
             }
 
-            /* Real project card */
             return (
               <div
                 key={project.id}
                 className="project-card"
-                style={{ animationDelay: `${i * 0.1}s` }}
+                style={{ animation: 'none' }}
               >
-                <div className="project-banner" style={{ background: project.bannerBg }}>
-                  <span className="project-banner-icon">{project.icon}</span>
+                <div className="project-banner" style={{ 
+                  background: project.bannerBg,
+                  display:'flex',
+                  justifyContent:'left',
+                  alignItems: 'flex-start',
+                  overflow: 'hidden' }}>
+                  <div className="project-banner-icon">
+                    <Image src={project.icon} alt={project.name} width={330} height={185} style={{ transform: 'none' }} />
+                  </div>
                 </div>
                 <div className="project-body">
                   <h2 className="project-name">{project.name}</h2>
@@ -134,7 +142,6 @@ export default function ProjectsPage() {
                     ))}
                   </div>
                   <div className="project-footer">
-                    {/* Visit button */}
                     <a
                       href={project.link || undefined}
                       className={`btn ${project.link ? "btn-primary" : "btn-disabled"}`}
@@ -143,7 +150,6 @@ export default function ProjectsPage() {
                       Visit
                       <ExternalIcon />
                     </a>
-                    {/* Repo button */}
                     <a
                       href={project.repo || undefined}
                       className={`btn ${project.repo ? "btn-secondary" : "btn-disabled"}`}

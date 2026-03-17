@@ -17,8 +17,8 @@ export default function HomePage() {
 
           {/* Profile Card */}
           <div className="profile-card">
-            <div className="profile-avatar">A</div>
-            <div className="profile-name">Your Name</div>
+            <div className="profile-avatar">AG</div>
+            <div className="profile-name">Adarsh Gusain</div>
             <div className="profile-role">Full-Stack Developer &amp; Game Dev</div>
             <hr className="profile-divider" />
 
@@ -30,8 +30,8 @@ export default function HomePage() {
                   </svg>
                 </div>
                 <div>
-                  <span className="profile-info-label">Location</span>
-                  <span className="profile-info-value">Your City, Country</span>
+                  <span className="profile-info-label">Location and country</span>
+                  <span className="profile-info-value">Delhi-96, India</span>
                 </div>
               </div>
               <div className="profile-info-row">
@@ -74,7 +74,7 @@ export default function HomePage() {
             {/* GitHub + LinkedIn quick-visit */}
             <hr className="profile-divider" style={{ marginTop: "1.5rem" }} />
             <div className="profile-socials">
-              <a href="" className="social-pill">
+              <a href="https://github.com/adarshg-org-13?tab=repositories" className="social-pill">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="15" height="15" alt="GitHub" style={{ filter: "invert(1)" }} />
                 GitHub
               </a>
