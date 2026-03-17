@@ -32,7 +32,7 @@ const projects = [
     name: "AyuBuild Hub",
     description: "A full-featured PC part picker web application that lets users browse, compare, and build their ideal PC configuration — with compatibility checks and live pricing.",
     tags: ["TypeScript", "Next.js", "Web App", "Full-Stack"],
-    icon: "/main menu _g.jpeg",
+    icon: "/ayubimg.png",
     bannerBg: "linear-gradient(135deg, #70798C 0%, #A99985 100%)",
     link: "",
     repo: "https://github.com/adarshg-org-13/AyuBuild-Hub",
@@ -43,7 +43,7 @@ const projects = [
     name: "",
     description: "",
     tags: [],
-    icon: "/main menu _g.jpeg",
+    icon: "/cmsoon.avif",
     bannerBg: "linear-gradient(135deg, rgba(112,121,140,0.3) 0%, rgba(169,153,133,0.3) 100%)",
     link: "",
     repo: "",
@@ -55,7 +55,7 @@ const projects = [
     name: "",
     description: "",
     tags: [],
-    icon: "/gears-icon.png",
+    icon: "/cmsoon.avif",
     bannerBg: "linear-gradient(135deg, rgba(37,35,35,0.2) 0%, rgba(112,121,140,0.25) 100%)",
     link: "",
     repo: "",
@@ -67,7 +67,7 @@ const projects = [
     name: "",
     description: "",
     tags: [],
-    icon: "/rocket-icon.png",
+    icon: "/cmsoon.avif",
     bannerBg: "linear-gradient(135deg, rgba(169,153,133,0.25) 0%, rgba(218,210,188,0.4) 100%)",
     link: "",
     repo: "",
@@ -94,7 +94,7 @@ export default function ProjectsPage() {
                 >
                   <div className="project-banner" style={{ background: project.bannerBg, overflow: 'hidden' }}>
                     <div className="project-banner-icon" style={{ opacity: 0.4, display: "flex", alignItems:"flex-start", justifyContent:"left" }}>
-                       <Image src={project.icon} alt="icon" width={330} height={185} style={{ transform: 'none' }} />
+                       <Image src={project.icon} alt="icon" width={330} height={170} style={{ transform: 'none' }} />
                     </div>
                   </div>
                   <div className="project-body" style={{ alignItems: "center", justifyContent: "center", textAlign: "center", gap: "0.75rem" }}>
@@ -126,11 +126,11 @@ export default function ProjectsPage() {
                 <div className="project-banner" style={{ 
                   background: project.bannerBg,
                   display:'flex',
-                  justifyContent:'left',
+                  justifyContent:'center',
                   alignItems: 'flex-start',
                   overflow: 'hidden' }}>
                   <div className="project-banner-icon">
-                    <Image src={project.icon} alt={project.name} width={330} height={185} style={{ transform: 'none' }} />
+                    <Image src={project.icon} alt={project.name} width={325} height={175} style={{ transform: 'none' }} />
                   </div>
                 </div>
                 <div className="project-body">

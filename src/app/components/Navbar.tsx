@@ -24,7 +24,7 @@ export default function Navbar() {
             <rect x="11" y="11" width="7" height="7" rx="2" fill="#DAD2BC" />
           </svg>
         </span>
-        Home
+        Adarsh
       </Link>
 
       {/* Dynamic Island navbar buttons */}

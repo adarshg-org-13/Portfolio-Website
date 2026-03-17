@@ -13,7 +13,7 @@ const contacts = [
     description: "Let's connect professionally. I'm open to collaborations, job opportunities, and networking.",
     logo: null,
     logoInvert: false,
-    href: "www.linkedin.com/in/adarsh-gusain-065aaa3b7",
+    href: "https://www.linkedin.com/in/adarsh-gusain-065aaa3b7",
   },
 ];
 
@@ -103,8 +103,8 @@ export default function ConnectPage() {
           <p style={{ color: "var(--taupe)", fontSize: "0.88rem", lineHeight: 1.65 }}>
             Have a project idea, want to collaborate, or just want to say hi? My inbox is always open!,feel free to contact me!
           </p>
-          <a href="mailto:axbns5e55101@gmail.com" className="btn btn-primary" style={{ alignSelf: "flex-start" }}>
-            Send an Email!
+          <a href="https://mail.google.com" className="btn btn-primary" style={{ alignSelf: "flex-start" }}>
+            Send an Email
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="22" y1="2" x2="11" y2="13"/>
               <polygon points="22 2 15 22 11 13 2 9 22 2"/>
