@@ -30,7 +30,7 @@ const projects = [
   {
     id: 2,
     name: "AyuBuild Hub",
-    description: "A full-featured PC part picker web application that lets users browse, compare, and build their ideal PC configuration — with compatibility checks and live pricing.",
+    description: "A full-featured PC part picker web application that lets users browse, compare, and build their ideal PC configuration — with compatibility checks and live pricing.It also comes with some featured builds which is hand picked by pc build specialists and provides best bang for the buck performance for you tasks.",
     tags: ["TypeScript", "Next.js", "Web App", "Full-Stack"],
     icon: "/ayubimg.png",
     bannerBg: "linear-gradient(135deg, #70798C 0%, #A99985 100%)",
@@ -39,7 +39,18 @@ const projects = [
     ghost: false,
   },
   {
-    id: 3,
+    id:3,
+    name:"ChronoType",
+    description:"ChronoType is a typing website where you can practice your typing skills and imporve them. This website also comes with a analytics section where you can see your progress through graphs it comes with more than 5 themes and more than 10+ fonts and custome sounds for a vibrant experience and a virtual keyboard which shows the exact words typed by the user.",
+    tags:["TypeScript","Next.js","Web App","Full-Stack"],
+    icon:"/logo_chronotype.png",
+    bannerBg:"linear-gradient(135deg, #70798C 0%, #A99985 100%)",
+    link:"https://chronotype-alpha.vercel.app/",
+    repo:"https://github.com/adarshg-org-13/ChronoType",
+    ghost:false,
+  },
+  {
+    id: 4,
     name: "",
     description: "",
     tags: [],
@@ -48,10 +59,10 @@ const projects = [
     link: "",
     repo: "",
     ghost: true,
-    ghostLabel: "Coming Soon",
+    ghostLabel: "In Development",
   },
   {
-    id: 4,
+    id: 5,
     name: "",
     description: "",
     tags: [],
@@ -60,10 +71,10 @@ const projects = [
     link: "",
     repo: "",
     ghost: true,
-    ghostLabel: "Working...",
+    ghostLabel: "In Development",
   },
   {
-    id: 5,
+    id: 6,
     name: "",
     description: "",
     tags: [],
@@ -72,7 +83,7 @@ const projects = [
     link: "",
     repo: "",
     ghost: true,
-    ghostLabel: "Coming Soon",
+    ghostLabel: "In Development",
   },
 ];
 

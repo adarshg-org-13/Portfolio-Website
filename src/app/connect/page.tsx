@@ -1,7 +1,7 @@
 const contacts = [
   {
     platform: "GitHub",
-    handle: "@adarshg-org-13",
+    handle: "adarshg-org-13",
     description: "Check out my open-source projects, game dev experiments, and web apps — all on GitHub.",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     logoInvert: true,
@@ -10,7 +10,7 @@ const contacts = [
   {
     platform: "LinkedIn",
     handle: "Adarsh Gusain",
-    description: "Let's connect professionally. I'm open to collaborations, job opportunities, and networking.",
+    description: "Let's connect professionally. I'm open to collaborations, business opportunities, and networking.",
     logo: null,
     logoInvert: false,
     href: "https://www.linkedin.com/in/adarsh-gusain-065aaa3b7",
@@ -21,8 +21,15 @@ export default function ConnectPage() {
   return (
     <div className="page">
       <div className="section">
-        <h1 className="section-title">Connect</h1>
-        <p className="section-subtitle">Find me across the internet or drop me a message!</p>
+        <h1 className="section-title">About Me</h1>
+        <p className="section-subtitle">Hello, I am <strong>Adarsh Gusain</strong> , a software programmer and a game developer currently pursuing my PCM studies at <strong>St Marys's Sr Sec School Mayur Vihar Phase-3</strong>.
+          My journey in technical problem-solving and disciplined competition began early, notably achieving <strong>4th runner-up at the 2018 UCMAS Delhi State Level competition</strong>, and has more recently
+          led me to participate in <strong>Campfire Delhi hackathon which was hosted in IIT Delhi</strong>. In the realm of game development, I have focused on the Godot Engine to build projects like The Last Offering on itch.io,
+          where I specialized in 2D physcis and immersive environment design. Beyond gaming, I have expanded into web development by creating AyuBuild Hub, a platform that enables users to compare and select
+          Pc components efficently. Wether I am managing Minecraft Server infrastrucutre or desiging functional web interfaces, I am commited to bridging the gap between complex engineering and user-centric design. I am also into content creation
+          and have been creating content since 4 years and i love to play competitive games like Valorant CS2 and some horror games like Resident Evil Granny etc and some adventurous games like Minecraft.</p>
+        <h2 className="section-title">Connect</h2>
+        <p className="section-subtitle"><strong>Lets' Collaborate-find me on Github, LinkedIn, or reach out via Email.</strong></p>
 
         {/* Social Cards */}
         <div className="connect-grid">

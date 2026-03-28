@@ -19,7 +19,7 @@ export default function RootLayout({
         {children}
         <footer className="footer">
           <p>
-            Made by Adarsh · <span>Portfolio website (2026)</span>
+            Adarsh Gusain · <span>Portfolio website (2026)</span>
           </p>
         </footer>
       </body>
