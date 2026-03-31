@@ -22,8 +22,10 @@ To visit the website (local host):- http://localhost:3000/
 
 Some images of the website 
 
-![]()
-![]()
-![]()
+![show_case_img_1](https://github.com/adarshg-org-13/Portfolio-Website/blob/595967e0b7cc5a711877bc7c1b2c9c24d2427c6b/public/sc1.png)
+![show_case_img_2](https://github.com/adarshg-org-13/Portfolio-Website/blob/595967e0b7cc5a711877bc7c1b2c9c24d2427c6b/public/sc2.png)
+![show_case_img_3](https://github.com/adarshg-org-13/Portfolio-Website/blob/595967e0b7cc5a711877bc7c1b2c9c24d2427c6b/public/sc3.png)
 
-Visit this website : -
+Visit this website : - https://portfolio-website-adarsh-phi.vercel.app/
+
+Thanks for checking my github page !!
