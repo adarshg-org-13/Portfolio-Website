@@ -19,7 +19,7 @@ const projects = [
   {
     id: 1,
     name: "Car Washing Simulator",
-    description: "A fun and interactive car washing simulation game built with the Godot engine. Players wash cars, earn coins, and drive vehicles in a satisfying gameplay loop.",
+    description: "Car Washing Simulator is a fun and interactive 3-D game in which the player has to earn money by washing out cars. The player can even drive a car and this game comes with a huge map which you can explore and have some fun (btw it was my first game that i made).",
     tags: ["GDScript", "Godot Engine", "Game Dev", "Simulation"],
     icon: "/main menu _g.jpeg",
     bannerBg: "linear-gradient(135deg, #252323 0%, #70798C 100%)",
