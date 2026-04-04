@@ -56,7 +56,7 @@ const projects = [
     tags: ["TypeScript","Next.js","Web App","Full-Stack"],
     icon: "/Eqvis.png",
     bannerBg: "linear-gradient(135deg, rgba(112,121,140,0.3) 0%, rgba(169,153,133,0.3) 100%)",
-    link: "",
+    link: "https://eq-vision.vercel.app/",
     repo: "https://github.com/adarshg-org-13/EqVision",
     ghost: false,
   },
